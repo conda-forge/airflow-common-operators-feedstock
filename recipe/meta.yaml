@@ -1,5 +1,5 @@
 {% set name = "airflow-common-operators" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/airflow-common-operators/airflow_common_operators-{{ version }}.tar.gz
-  sha256: 056b517faf221d8f0bb0ec4d36a32aafdba1087789a57885f6368d22ec7bc1b3
+  sha256: 7c745b2753e268a723fd1cf656fd5dc65997d6f9d0c701ecb71b7da230b74509
 
 build:
   number: 0
