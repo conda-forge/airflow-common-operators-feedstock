@@ -24,8 +24,10 @@ requirements:
   run:
     - python >={{ python_min }}
     - apache-airflow >=2.8,<3
+    - airflow-pydantic >=1.1.0,<1.2
     - pkn >=0.1.1,<0.2
     - pydantic >=2
+
 
 test:
   requires:
