@@ -1,5 +1,5 @@
 {% set name = "airflow-common-operators" %}
-{% set version = "0.5.2" %}
+{% set version = "0.6.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/airflow-common-operators/airflow_common_operators-{{ version }}.tar.gz
-  sha256: 99abf48bb47dd668156626dbb228568fadff10100808703485e0318327259060
+  sha256: f9f0baa7c80368173352d1c9c6554197082c57ea9bd7a984cd1c364367f48d09
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - apache-airflow >=2.8,<3
-    - airflow-pydantic >=1.1,<1.3
+    - airflow-pydantic >=1.2.8,<1.3
     - pkn >=0.1.1,<0.2
     - pydantic >=2
 
